@@ -38,7 +38,7 @@ namespace VotingDominator.Services
                 {
                     if (antiBotTracker >= 25)
                     {
-                        Thread.Sleep(120000);
+                        Thread.Sleep(90000);
                         antiBotTracker = 0;
                     }
 
